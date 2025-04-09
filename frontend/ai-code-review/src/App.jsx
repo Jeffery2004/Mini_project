@@ -1,0 +1,20 @@
+import React from "react";
+import Home from './Components/Home'
+import Login from './Components/Login'
+import Signup from './Components/Signup'
+import Codearea from './Components/Codearea';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path='/signup' element={<Signup />}></Route>
+        <Route path='/codearea' element={<Codearea />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;

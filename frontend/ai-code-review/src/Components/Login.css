@@ -1,0 +1,46 @@
+.login-container {
+  justify-content: center;
+}
+.login-container .card {
+  margin-left: 530px;
+  border-style: solid;
+  border-color: rgb(145, 188, 215);
+  margin-top: 150px;
+  background-color: rgb(201, 245, 250);
+  padding-bottom: 70px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 290px;
+  align-items: center;
+}
+.login-container .card h1, .login-container .card label, .login-container .card input, .login-container .card button, .login-container .card a {
+  margin-left: 40px;
+}
+.login-container .card input {
+  padding: 8px;
+  width: 210px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.login-container .card button {
+  margin-top: 30px;
+  padding: 7px;
+  width: 110px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 90px;
+  margin-bottom: 22px;
+  border-style: solid;
+  border-color: rgb(145, 188, 215);
+}
+.login-container .card button:hover {
+  cursor: pointer;
+}
+.login-container .card a {
+  font-size: 17px;
+  margin-left: 110px;
+}/*# sourceMappingURL=Login.css.map */

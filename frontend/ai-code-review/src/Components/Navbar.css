@@ -1,0 +1,59 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-container .logo {
+  margin-left: 20px;
+  padding: 10px;
+}
+.nav-container .logo b a {
+  color: black;
+  text-decoration: none;
+}
+.nav-container .logo b, .nav-container .logo span {
+  font-size: 37px;
+}
+.nav-container .logo span {
+  color: rgb(76, 104, 228);
+}
+.nav-container .side-list li {
+  list-style: none;
+  margin-right: 50px;
+  font-size: 18px;
+}
+.nav-container .side-list li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-container .side-list li:hover {
+  text-decoration: underline;
+}
+.nav-container .side-list ul {
+  display: flex;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.profile-popup {
+  position: fixed;
+  margin-left: 77%;
+  margin-top: 150px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 60px;
+  width: 250px;
+  height: 270px;
+}
+.profile-popup button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+  border: none;
+  background-color: white;
+  color: rgb(76, 104, 228);
+  border-style: solid;
+  border-color: rgb(145, 188, 215);
+}
+.profile-popup button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=Navbar.css.map */

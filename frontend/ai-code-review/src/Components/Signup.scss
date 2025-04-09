@@ -1,0 +1,48 @@
+.signup-container{
+    justify-content: center;
+    .card{
+        margin-left: 530px;
+        border-color: rgb(145, 188, 215);
+        border-style: solid;
+        h1,label,input,button,a{
+            margin-left: 40px;
+        }
+        margin-top: 100px;
+        background-color: rgb(201, 245, 250);
+        padding-bottom: 50px;
+        padding-right: 70px;
+        padding-left: 70px;
+        padding-top: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        width:290px;
+        align-items: center;
+        input{
+            padding: 8px;
+            width: 210px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border:none;
+            border-radius: 7px;
+        }
+        button{
+            margin-top: 17px;
+            padding: 7px;
+            width: 110px;
+            border: none;
+            border-radius: 10px;
+            height:40px;
+            margin-left: 90px;
+            margin-bottom: 17px;
+            border-style:solid;
+            border-color: rgb(145, 188, 215);
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        a{
+            font-size: 17px;
+            margin-left: 110px;
+        }
+    }
+}

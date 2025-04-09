@@ -1,0 +1,39 @@
+.hero-container{
+    background-color: rgb(201, 245, 250);
+    margin:-7px;
+    padding-top: 7px;
+    bottom: 0px;
+    padding-bottom: 134px;
+    margin-top: 9px;
+    .hero-text{
+        margin-top: 100px;
+        margin-left: 350px;
+        font-size: 42px;
+        h1{
+            span{
+                color:rgb(76, 104, 228);
+            }
+        }
+    }
+    .hero-bt{
+        margin-left: 360px;
+        a{
+            font-family: poppins;
+            padding: 19px;
+            background-color: white;
+            font-size: 19px;
+            border-radius: 13px;
+            margin-top: -20px;
+            text-decoration: none;
+            color:rgb(76, 104, 228);
+            border-style:solid;
+            border-color: rgb(145, 188, 215);
+        }
+        a:hover{
+            cursor: pointer;
+            padding: 23px;
+            padding-top: 25px;
+            transition: 0.2s;
+        }
+    }
+}
